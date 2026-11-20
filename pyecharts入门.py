@@ -1,0 +1,19 @@
+from pyecharts.charts import Line
+from pyecharts.options import TitleOpts
+from pyecharts.options import LegendOpts,ToolboxOpts,VisualMapOpts
+line=Line()
+line.add_xaxis(["中国","美国","日本"])
+line.add_yaxis("GDP",[30,20,10])
+line.set_global_opts(
+    title_opts=TitleOpts(title="GDP展示",pos_left="center"),
+    legend_opts=LegendOpts(is_show=True),
+    toolbox_opts=ToolboxOpts(is_show=True),
+    visualmap_opts=VisualMapOpts(is_show=True)
+
+
+
+)
+
+line.render()
+
+

@@ -1,0 +1,12 @@
+#元组的定义tuple，支持下表索引
+a=(1,2,3,4)
+b=()
+print(a[1])
+c=tuple()
+print(type(a),type(b),b,c,a)
+#元组的添加
+a=a+(3,3,2)#添加一个元素时(num,)必须带逗号
+#元组的查找
+print(a.index(2))
+#元组的count统计方法
+print(a.count(2))
