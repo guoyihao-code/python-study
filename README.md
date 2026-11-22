@@ -4,7 +4,11 @@
 
 ## 内容
 
+<<<<<<< HEAD
 - `练习文件/char.py` — 字符统计命令行工具，支持 `-m lines / valid / chars`
+=======
+- `char.py` — 字符统计命令行工具，支持 `-m lines / valid / chars`
+>>>>>>> c32efc19bdc483aebf280a2f12fc3f1d4609b00b
 - 其余 `.py` — 日常练习
 - 数据分析，我的第一个数据分析项目-柱状图
 
