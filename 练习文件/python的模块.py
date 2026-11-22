@@ -19,5 +19,5 @@
 #自定义模块
 # import my_module1
 # my_module1.add(16,19)
-from my_module1 import*
+from 练习文件.my_module1 import*
 add(1,9)

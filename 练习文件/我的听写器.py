@@ -28,7 +28,7 @@ def quiz(words,n):
             save_wrong(en)
     return score,len(picks)
 def save_wrong(en):
-    with open("data/wrong.txt","a",encoding="utf-8") as f:
+    with open("../data/wrong.txt", "a", encoding="utf-8") as f:
         f.write(en+"\n")
 def load_wrong(path="data/wrong.txt"):
     wrong=[]
